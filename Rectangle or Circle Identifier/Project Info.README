@@ -1,0 +1,4 @@
+This project takes in a 100x100 pixel black and white image and can classify the difference between a rectangle and a circle. 
+The model has been trained to give each pixel a weight.
+Black is given the value 1, and white is given the value zero.
+Each pixel's value is multiplied with its weight and if it reaches the activation number, the neuron will fire and output circle. Otherwise, it will output rectangle.
