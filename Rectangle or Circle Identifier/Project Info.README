@@ -2,3 +2,6 @@ This project takes in a 100x100 pixel black and white image and can classify the
 The model has been trained to give each pixel a weight.
 Black is given the value 1, and white is given the value zero.
 Each pixel's value is multiplied with its weight and if it reaches the activation number, the neuron will fire and output circle. Otherwise, it will output rectangle.
+
+
+The file: Weights_Of_Images.py file has the function which allows the user to apply the model to a valid image.
